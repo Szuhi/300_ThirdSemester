@@ -24,5 +24,31 @@ namespace TaxValidation
         {
             InitializeComponent();
         }
+
+        string Validation()
+        {
+            double b = double.Parse(paid.Text);
+            double a = double.Parse(tax.Text);
+            double j = double.Parse(income.Text);
+
+            double temp = j * a / 100;
+
+            if (temp == b)
+                return "OK!";
+            if (temp > b)
+                return "Underpaid";
+            return "Overpaid!";
+        }
+
+        private void paid_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (sum != null)
+                sum.Content = Validation();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(Validation());
+        }
     }
 }

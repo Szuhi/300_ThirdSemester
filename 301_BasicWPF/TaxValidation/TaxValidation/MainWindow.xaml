@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Label Content="Income :" HorizontalAlignment="Left" Margin="138,51,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right"/>
+        <Label Content="Tax :" HorizontalAlignment="Left" Margin="138,114,0,0" VerticalAlignment="Top" Width="52" HorizontalContentAlignment="Right"/>
+        <Label Content="Paid :" HorizontalAlignment="Left" Margin="138,185,0,0" VerticalAlignment="Top" Width="52" HorizontalContentAlignment="Right"/>
+        <Button Click="Button_Click" Content="Check" HorizontalAlignment="Left" Margin="210,253,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="income" HorizontalAlignment="Left" Height="23" Margin="198,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133"/>
+        <TextBox x:Name="tax" HorizontalAlignment="Left" Height="23" Margin="198,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+        <TextBox x:Name="paid" TextChanged="paid_TextChanged" HorizontalAlignment="Left" Height="23" Margin="198,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133"/>
+        <Label Content="%" HorizontalAlignment="Left" Margin="277,115,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="sum" Content="" HorizontalAlignment="Left" Margin="10,253,0,0" VerticalAlignment="Top" Width="117"/>
+
     </Grid>
 </Window>
