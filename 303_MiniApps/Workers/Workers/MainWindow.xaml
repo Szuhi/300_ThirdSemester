@@ -1,0 +1,17 @@
+﻿<Window x:Class="Workers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Workers"
+        mc:Ignorable="d"
+        Title="Workers" Height="456" Width="427">
+    <Grid>
+        <Label Content="List of workerks:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="264"/>
+        <ListBox x:Name="lstWorkers" HorizontalAlignment="Left" Height="374" Margin="10,41,0,0" VerticalAlignment="Top" Width="264"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="279,41,0,0" VerticalAlignment="Top" Width="130" Click="btn_Add"/>
+        <Button Content="Remove" HorizontalAlignment="Left" Margin="279,66,0,0" VerticalAlignment="Top" Width="130" Click="btn_Remove"/>
+        <Button Content="Modify" HorizontalAlignment="Left" Margin="279,91,0,0" VerticalAlignment="Top" Width="130" Click="btn_Modify"/>
+        <Button Content="Remove All" HorizontalAlignment="Left" Margin="279,116,0,0" VerticalAlignment="Top" Width="130" Click="btn_RemoveAll"/>
+    </Grid>
+</Window>

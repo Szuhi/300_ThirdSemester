@@ -1,0 +1,16 @@
+D:\Development\Repository\University\300_ThirdSemester\303_MiniApps\Workers\Workers\bin\Debug\Workers.exe.config
+D:\Development\Repository\University\300_ThirdSemester\303_MiniApps\Workers\Workers\bin\Debug\Workers.exe
+D:\Development\Repository\University\300_ThirdSemester\303_MiniApps\Workers\Workers\bin\Debug\Workers.pdb
+D:\Development\Repository\University\300_ThirdSemester\303_MiniApps\Workers\Workers\obj\Debug\Workers.csprojResolveAssemblyReference.cache
+D:\Development\Repository\University\300_ThirdSemester\303_MiniApps\Workers\Workers\obj\Debug\MainWindow.g.cs
+D:\Development\Repository\University\300_ThirdSemester\303_MiniApps\Workers\Workers\obj\Debug\WorkerWindow.g.cs
+D:\Development\Repository\University\300_ThirdSemester\303_MiniApps\Workers\Workers\obj\Debug\App.g.cs
+D:\Development\Repository\University\300_ThirdSemester\303_MiniApps\Workers\Workers\obj\Debug\Workers_MarkupCompile.cache
+D:\Development\Repository\University\300_ThirdSemester\303_MiniApps\Workers\Workers\obj\Debug\Workers_MarkupCompile.lref
+D:\Development\Repository\University\300_ThirdSemester\303_MiniApps\Workers\Workers\obj\Debug\MainWindow.baml
+D:\Development\Repository\University\300_ThirdSemester\303_MiniApps\Workers\Workers\obj\Debug\WorkerWindow.baml
+D:\Development\Repository\University\300_ThirdSemester\303_MiniApps\Workers\Workers\obj\Debug\Workers.g.resources
+D:\Development\Repository\University\300_ThirdSemester\303_MiniApps\Workers\Workers\obj\Debug\Workers.Properties.Resources.resources
+D:\Development\Repository\University\300_ThirdSemester\303_MiniApps\Workers\Workers\obj\Debug\Workers.csproj.GenerateResource.Cache
+D:\Development\Repository\University\300_ThirdSemester\303_MiniApps\Workers\Workers\obj\Debug\Workers.exe
+D:\Development\Repository\University\300_ThirdSemester\303_MiniApps\Workers\Workers\obj\Debug\Workers.pdb
