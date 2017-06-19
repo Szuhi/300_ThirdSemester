@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MusicList"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="483" Width="421">
     <Grid>
-        
+        <ListBox x:Name="lst_lists" ItemsSource="{Binding Lists}" SelectedItem="{Binding Selected}" HorizontalAlignment="Left" Height="178" Margin="10,10,0,0" VerticalAlignment="Top" Width="393"/>
+        <StackPanel DataContext="{Binding Selected}" HorizontalAlignment="Left" Height="197" Margin="10,193,0,0" VerticalAlignment="Top" Width="393">
+            <Label Content="{Binding FileName}" ContentStringFormat="File name: {0}"/>
+            <Label Content="{Binding Name}" ContentStringFormat="Title: {0}"/>
+            <Label Content="{Binding PlayList.Count}" ContentStringFormat="Number of Songs: {0}"/>
+        </StackPanel>
+        <Button Content="Details..." HorizontalAlignment="Left" Margin="148,395,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.5,0.5" Click="Button_Click"/>
     </Grid>
 </Window>

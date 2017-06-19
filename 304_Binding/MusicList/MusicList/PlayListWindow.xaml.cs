@@ -10,31 +10,22 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace MusicList
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for PlayListWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class PlayListWindow : Window
     {
-        ViewModel VM;
-
-        public MainWindow()
+        public PlayListWindow()
         {
-            VM = ViewModel.Get();
-            this.DataContext = VM;
-
             InitializeComponent();
-        }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            if (VM.Selected == null)
-                return;
-            new PlayListWindow().ShowDialog();
+            PlayList ll = ViewModel.Get().Selected;
+            this.Title = ll.Name;
+            this.DataContext = ll;
         }
     }
 }

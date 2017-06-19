@@ -1,0 +1,16 @@
+D:\Development\Repository\University\300_ThirdSemester\304_Binding\MusicList\MusicList\bin\Debug\MusicList.exe.config
+D:\Development\Repository\University\300_ThirdSemester\304_Binding\MusicList\MusicList\bin\Debug\MusicList.exe
+D:\Development\Repository\University\300_ThirdSemester\304_Binding\MusicList\MusicList\bin\Debug\MusicList.pdb
+D:\Development\Repository\University\300_ThirdSemester\304_Binding\MusicList\MusicList\obj\Debug\MusicList.csprojResolveAssemblyReference.cache
+D:\Development\Repository\University\300_ThirdSemester\304_Binding\MusicList\MusicList\obj\Debug\MainWindow.g.cs
+D:\Development\Repository\University\300_ThirdSemester\304_Binding\MusicList\MusicList\obj\Debug\App.g.cs
+D:\Development\Repository\University\300_ThirdSemester\304_Binding\MusicList\MusicList\obj\Debug\MusicList_MarkupCompile.cache
+D:\Development\Repository\University\300_ThirdSemester\304_Binding\MusicList\MusicList\obj\Debug\MusicList_MarkupCompile.lref
+D:\Development\Repository\University\300_ThirdSemester\304_Binding\MusicList\MusicList\obj\Debug\MainWindow.baml
+D:\Development\Repository\University\300_ThirdSemester\304_Binding\MusicList\MusicList\obj\Debug\MusicList.g.resources
+D:\Development\Repository\University\300_ThirdSemester\304_Binding\MusicList\MusicList\obj\Debug\MusicList.Properties.Resources.resources
+D:\Development\Repository\University\300_ThirdSemester\304_Binding\MusicList\MusicList\obj\Debug\MusicList.csproj.GenerateResource.Cache
+D:\Development\Repository\University\300_ThirdSemester\304_Binding\MusicList\MusicList\obj\Debug\MusicList.exe
+D:\Development\Repository\University\300_ThirdSemester\304_Binding\MusicList\MusicList\obj\Debug\MusicList.pdb
+D:\Development\Repository\University\300_ThirdSemester\304_Binding\MusicList\MusicList\obj\Debug\PlayListWindow.g.cs
+D:\Development\Repository\University\300_ThirdSemester\304_Binding\MusicList\MusicList\obj\Debug\PlayListWindow.baml

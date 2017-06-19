@@ -18,6 +18,13 @@ namespace MusicList
             foreach (string file in System.IO.Directory.EnumerateFiles(".", "*.csv", System.IO.SearchOption.TopDirectoryOnly))
                 Lists.Add(PlayList.Parse(file));
         }
+
+        public static ViewModel Get()
+        {
+            if (_peldany == null)
+                _peldany = new ViewModel();
+            return _peldany;
+        }
     }
 
     public class Song
