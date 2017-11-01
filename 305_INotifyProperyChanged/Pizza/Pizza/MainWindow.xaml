@@ -7,6 +7,38 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <ListBox ItemsSource="{Binding Items}" SelectedItem="{Binding SelectedItem}" HorizontalAlignment="Left" Height="211" Margin="10,10,0,0" VerticalAlignment="Top" Width="209">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="140px" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Label Content="{Binding Name}" Grid.Column="0"/>
+                        <Label Content="{Binding Price}" ContentStringFormat="{}{0} USD" Grid.Column="1"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <ItemsControl ItemsSource="{Binding Extras}" Margin="224,10,10,0" Height="211" VerticalAlignment="Top">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20px" />
+                            <ColumnDefinition Width="80px" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <CheckBox IsChecked="{Binding Prop}" Grid.Column="0" />
+                        <Label Content="{Binding Name}" Grid.Column="1" />
+                        <Label Content="{Binding Price}" ContentStringFormat="{}{0} Ft" Grid.Column="2" />
+                    </Grid>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        <Button Click="btn_Selection" Content="Select All" HorizontalAlignment="Left" Margin="392,226,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label FontSize="32" Content="{Binding FullPrice}" ContentStringFormat="{}{0} USD" HorizontalAlignment="Left" Margin="10,226,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>

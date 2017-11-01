@@ -13,26 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Pizza
+namespace NHLRoster
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-        ViewModel VM;
         public MainWindow()
         {
-            VM = new ViewModel();
-            this.DataContext = VM;
-
             InitializeComponent();
-        }
-
-        private void btn_Selection(object sender, RoutedEventArgs e)
-        {
-            foreach (PizzaItem p in VM.Extras)
-                p.Prop = true;
         }
     }
 }

@@ -1,0 +1,14 @@
+D:\Development\Repository\University\300_ThirdSemester\305_INotifyProperyChanged\Pizza\Pizza\bin\Debug\Pizza.exe.config
+D:\Development\Repository\University\300_ThirdSemester\305_INotifyProperyChanged\Pizza\Pizza\bin\Debug\Pizza.exe
+D:\Development\Repository\University\300_ThirdSemester\305_INotifyProperyChanged\Pizza\Pizza\bin\Debug\Pizza.pdb
+D:\Development\Repository\University\300_ThirdSemester\305_INotifyProperyChanged\Pizza\Pizza\obj\Debug\Pizza.csprojResolveAssemblyReference.cache
+D:\Development\Repository\University\300_ThirdSemester\305_INotifyProperyChanged\Pizza\Pizza\obj\Debug\MainWindow.g.cs
+D:\Development\Repository\University\300_ThirdSemester\305_INotifyProperyChanged\Pizza\Pizza\obj\Debug\App.g.cs
+D:\Development\Repository\University\300_ThirdSemester\305_INotifyProperyChanged\Pizza\Pizza\obj\Debug\Pizza_MarkupCompile.cache
+D:\Development\Repository\University\300_ThirdSemester\305_INotifyProperyChanged\Pizza\Pizza\obj\Debug\Pizza_MarkupCompile.lref
+D:\Development\Repository\University\300_ThirdSemester\305_INotifyProperyChanged\Pizza\Pizza\obj\Debug\MainWindow.baml
+D:\Development\Repository\University\300_ThirdSemester\305_INotifyProperyChanged\Pizza\Pizza\obj\Debug\Pizza.g.resources
+D:\Development\Repository\University\300_ThirdSemester\305_INotifyProperyChanged\Pizza\Pizza\obj\Debug\Pizza.Properties.Resources.resources
+D:\Development\Repository\University\300_ThirdSemester\305_INotifyProperyChanged\Pizza\Pizza\obj\Debug\Pizza.csproj.GenerateResource.Cache
+D:\Development\Repository\University\300_ThirdSemester\305_INotifyProperyChanged\Pizza\Pizza\obj\Debug\Pizza.exe
+D:\Development\Repository\University\300_ThirdSemester\305_INotifyProperyChanged\Pizza\Pizza\obj\Debug\Pizza.pdb
