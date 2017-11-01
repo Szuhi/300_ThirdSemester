@@ -1,0 +1,25 @@
+﻿<Window x:Class="NHLRoster.AddModWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NHLRoster"
+        mc:Ignorable="d"
+        Title="AddModWindow" Height="229" Width="300" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Resources>
+            <local:IntToHeightConverter x:Key="ITM" />
+        </Grid.Resources>
+
+        <Label Content="Name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Height" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <Label Content="Status" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <Label Content="Position" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtname" HorizontalAlignment="Left" Height="23" Margin="78,13,0,0" TextWrapping="Wrap" Text="{Binding Name, UpdateSourceTrigger=Explicit}" VerticalAlignment="Top" Width="204" PreviewTextInput="txtnev_PreviewTextInput"/>
+        <TextBox x:Name="txtheight" HorizontalAlignment="Left" Height="23" Margin="78,45,0,0" TextWrapping="Wrap" Text="{Binding Height, UpdateSourceTrigger=Explicit, Converter={StaticResource ITM}}" VerticalAlignment="Top" Width="204"/>
+        <ComboBox x:Name="cmbstatus" HorizontalAlignment="Left" Margin="78,76,0,0" VerticalAlignment="Top" Width="204" SelectedItem="{Binding Status, UpdateSourceTrigger=Explicit}" ItemsSource="{Binding AllStatus}"/>
+        <ComboBox x:Name="cmbposition" HorizontalAlignment="Left" Margin="78,103,0,0" VerticalAlignment="Top" Width="204" SelectedItem="{Binding Position, UpdateSourceTrigger=Explicit}" ItemsSource="{Binding AllPosition}"/>
+        <Button Click="btn_ok" Content="OK" HorizontalAlignment="Left" Margin="78,146,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="btn_cancel" Content="Cancel" HorizontalAlignment="Left" Margin="177,146,0,0" VerticalAlignment="Top" Width="75"/>
+    </Grid>
+</Window>

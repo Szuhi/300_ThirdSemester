@@ -5,8 +5,46 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NHLRoster"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="449" ResizeMode="NoResize">
     <Grid>
-        
+        <Grid.Resources>
+            <local:StatusToBrushConverter x:Key="STB" />
+        </Grid.Resources>
+
+        <ListBox ItemsSource="{Binding Bench}" SelectedItem="{Binding BenchSelected}" HorizontalAlignment="Left" Height="299" Margin="10,10,0,0" VerticalAlignment="Top" Width="177">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Width="140px" Background="{Binding Status, Converter={StaticResource STB}}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Label Content="{Binding Name}" Grid.Column="0" Grid.Row="0" Width="80px"/>
+                        <Label Content="{Binding Height}" ContentStringFormat="{}{0} cm" Grid.Column="1" Grid.Row="0"/>
+                        <Label Content="{Binding Position}" Grid.Column="0" Grid.Row="1" Width="80px"/>
+                        <Label Content="{Binding Status}" Grid.Column="1" Grid.Row="1"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <ListBox ItemsSource="{Binding Field}" SelectedItem="{Binding FieldSelected}" HorizontalAlignment="Left" Height="299" Margin="192,10,0,0" VerticalAlignment="Top" Width="119">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <DockPanel>
+                        <Label Content="{Binding Name}" />
+                        <Label Content="{Binding Position}" />
+                    </DockPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <Button Click="btn_add" Content="ADD" HorizontalAlignment="Left" Margin="316,10,0,0" VerticalAlignment="Top" Width="115"/>
+        <Button Click="btn_mod" Content="MOD" HorizontalAlignment="Left" Margin="316,35,0,0" VerticalAlignment="Top" Width="115"/>
+        <Button Click="btn_toField" Content="MOVE &gt;&gt;" HorizontalAlignment="Left" Margin="316,60,0,0" VerticalAlignment="Top" Width="115"/>
+        <Button Click="btn_toBench" Content="MOVE &lt;&lt;" HorizontalAlignment="Left" Margin="316,85,0,0" VerticalAlignment="Top" Width="115"/>
     </Grid>
 </Window>
