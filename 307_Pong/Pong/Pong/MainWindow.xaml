@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pong"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <Canvas>
+        <Rectangle Canvas.Left="{Binding Slider.Shape.X}" Canvas.Top="{Binding Slider.Shape.Y}" Height="{Binding Slider.Shape.Height}" Width="{Binding Slider.Shape.Width}" 
+                 Fill="Green" />
+        <Label Content="{Binding Lifes}" ContentStringFormat="{}{0} life" Canvas.Right="0" Canvas.Top="0"/>
+    </Canvas>
 </Window>

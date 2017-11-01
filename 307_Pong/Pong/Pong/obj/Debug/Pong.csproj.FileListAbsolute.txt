@@ -1,0 +1,14 @@
+D:\Development\Repository\University\300_ThirdSemester\307_Pong\Pong\Pong\obj\Debug\Pong.csprojResolveAssemblyReference.cache
+D:\Development\Repository\University\300_ThirdSemester\307_Pong\Pong\Pong\obj\Debug\MainWindow.g.cs
+D:\Development\Repository\University\300_ThirdSemester\307_Pong\Pong\Pong\obj\Debug\App.g.cs
+D:\Development\Repository\University\300_ThirdSemester\307_Pong\Pong\Pong\obj\Debug\Pong_MarkupCompile.cache
+D:\Development\Repository\University\300_ThirdSemester\307_Pong\Pong\Pong\obj\Debug\Pong_MarkupCompile.lref
+D:\Development\Repository\University\300_ThirdSemester\307_Pong\Pong\Pong\bin\Debug\Pong.exe.config
+D:\Development\Repository\University\300_ThirdSemester\307_Pong\Pong\Pong\bin\Debug\Pong.exe
+D:\Development\Repository\University\300_ThirdSemester\307_Pong\Pong\Pong\bin\Debug\Pong.pdb
+D:\Development\Repository\University\300_ThirdSemester\307_Pong\Pong\Pong\obj\Debug\MainWindow.baml
+D:\Development\Repository\University\300_ThirdSemester\307_Pong\Pong\Pong\obj\Debug\Pong.g.resources
+D:\Development\Repository\University\300_ThirdSemester\307_Pong\Pong\Pong\obj\Debug\Pong.Properties.Resources.resources
+D:\Development\Repository\University\300_ThirdSemester\307_Pong\Pong\Pong\obj\Debug\Pong.csproj.GenerateResource.Cache
+D:\Development\Repository\University\300_ThirdSemester\307_Pong\Pong\Pong\obj\Debug\Pong.exe
+D:\Development\Repository\University\300_ThirdSemester\307_Pong\Pong\Pong\obj\Debug\Pong.pdb
