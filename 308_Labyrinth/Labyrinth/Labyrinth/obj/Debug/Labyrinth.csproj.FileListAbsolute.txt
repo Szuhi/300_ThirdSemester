@@ -1,0 +1,15 @@
+D:\Development\Repository\University\300_ThirdSemester\308_Labyrinth\Labyrinth\Labyrinth\obj\Debug\Labyrinth.csprojResolveAssemblyReference.cache
+D:\Development\Repository\University\300_ThirdSemester\308_Labyrinth\Labyrinth\Labyrinth\obj\Debug\MainWindow.g.cs
+D:\Development\Repository\University\300_ThirdSemester\308_Labyrinth\Labyrinth\Labyrinth\obj\Debug\App.g.cs
+D:\Development\Repository\University\300_ThirdSemester\308_Labyrinth\Labyrinth\Labyrinth\obj\Debug\Labyrinth_MarkupCompile.cache
+D:\Development\Repository\University\300_ThirdSemester\308_Labyrinth\Labyrinth\Labyrinth\obj\Debug\Labyrinth_MarkupCompile.lref
+D:\Development\Repository\University\300_ThirdSemester\308_Labyrinth\Labyrinth\Labyrinth\bin\Debug\Labyrinth.exe.config
+D:\Development\Repository\University\300_ThirdSemester\308_Labyrinth\Labyrinth\Labyrinth\bin\Debug\Labyrinth.exe
+D:\Development\Repository\University\300_ThirdSemester\308_Labyrinth\Labyrinth\Labyrinth\bin\Debug\Labyrinth.pdb
+D:\Development\Repository\University\300_ThirdSemester\308_Labyrinth\Labyrinth\Labyrinth\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Development\Repository\University\300_ThirdSemester\308_Labyrinth\Labyrinth\Labyrinth\obj\Debug\MainWindow.baml
+D:\Development\Repository\University\300_ThirdSemester\308_Labyrinth\Labyrinth\Labyrinth\obj\Debug\Labyrinth.g.resources
+D:\Development\Repository\University\300_ThirdSemester\308_Labyrinth\Labyrinth\Labyrinth\obj\Debug\Labyrinth.Properties.Resources.resources
+D:\Development\Repository\University\300_ThirdSemester\308_Labyrinth\Labyrinth\Labyrinth\obj\Debug\Labyrinth.csproj.GenerateResource.Cache
+D:\Development\Repository\University\300_ThirdSemester\308_Labyrinth\Labyrinth\Labyrinth\obj\Debug\Labyrinth.exe
+D:\Development\Repository\University\300_ThirdSemester\308_Labyrinth\Labyrinth\Labyrinth\obj\Debug\Labyrinth.pdb

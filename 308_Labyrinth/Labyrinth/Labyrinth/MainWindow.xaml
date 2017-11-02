@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Labyrinth"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Background="Black"
+        Title="MainWindow" Height="350" Width="525" WindowState="Maximized">
+    <Image Stretch="Fill">
+        <Image.Resources>
+            <local:MapToGeometryConverter x:Key="MTG" />
+            <local:PointToGeometryConverter x:Key="PTG" />
+        </Image.Resources>
+        <Image.Source>
+            <DrawingImage>
+                <DrawingImage.Drawing>
+                    <DrawingGroup>
+                        <GeometryDrawing Geometry="{Binding Map, Converter={StaticResource MTG}}" Brush="{Binding WallBrush}" />
+                        <GeometryDrawing Geometry="{Binding Exit, Converter={StaticResource PTG}}" Brush="{Binding ExitBrush}" />
+                        <GeometryDrawing Geometry="{Binding Player, Converter={StaticResource PTG}}" Brush="{Binding PlayerBrush}" />
+                    </DrawingGroup>
+                </DrawingImage.Drawing>
+            </DrawingImage>
+        </Image.Source>
+    </Image>
 </Window>
