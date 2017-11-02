@@ -23,6 +23,13 @@ namespace FlappyBird
         public MainWindow()
         {
             InitializeComponent();
+            KeyDown += MainWindow_KeyDown;
+        }
+
+        void MainWindow_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Space)
+                (Content as Game).Jump();
         }
     }
 }
